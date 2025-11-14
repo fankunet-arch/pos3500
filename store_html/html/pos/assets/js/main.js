@@ -19,7 +19,6 @@ console.log("Modules imported successfully in main.js");
 const I18N_NS = (typeof I18N === 'object' && I18N) ? I18N : (window.I18N = window.I18N || {});
 I18N_NS.zh = I18N_NS.zh || {};
 I18N_NS.es = I18N_NS.es || {};
-// (I18N 文本对象内容保持不变，此处省略以节约空间)
 // ... (I18N_NS.zh 和 I18N_NS.es 的所有键值对) ...
 Object.assign(I18N_NS.zh, {
   no_addons_available: '暂无可用的加料选项',
